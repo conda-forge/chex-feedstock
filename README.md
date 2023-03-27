@@ -1,11 +1,11 @@
-About chex
-==========
+About chex-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chex-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/deepmind/chex
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chex-feedstock/blob/main/LICENSE.txt)
 
 Summary: Chex: Testing made fun, in JAX!
 
