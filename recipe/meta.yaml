@@ -1,5 +1,5 @@
 {% set name = "chex" %}
-{% set version = "0.1.82" %}
+{% set version = "0.1.83" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/chex-{{ version }}.tar.gz
-  sha256: a9b151ada0b5c1bc5a8ae572617eb09f2fe4ff110fe1d75045f9083eecf5b2c1
+  sha256: 8b8eb8d435594ff62f54be919b4b40795a6d2c35b800876f02f17f47643ceb6f
 
 build:
   number: 0
