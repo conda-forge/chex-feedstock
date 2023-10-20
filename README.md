@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@PhilipVinc](https://github.com/PhilipVinc/)
 * [@hbq1](https://github.com/hbq1/)
+* [@jan-janssen](https://github.com/jan-janssen/)
 
