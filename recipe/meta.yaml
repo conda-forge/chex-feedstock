@@ -1,5 +1,5 @@
 {% set name = "chex" %}
-{% set version = "0.1.90" %}
+{% set version = "0.1.91" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/chex-{{ version }}.tar.gz
-  sha256: d3c375aeb6154b08f1cccd2bee4ed83659ee2198a6acf1160d2fe2e4a6c87b5c
+  sha256: 65367a521415ada905b8c0222b0a41a68337fcadf79a1fb6fc992dbd95dd9f76
 
 build:
   number: 0
@@ -21,14 +21,14 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - typing_extensions >=4.2.0
+    - typing_extensions >=4.15.0
     - python >={{ python_min }}
-    - absl-py >=0.9.0
+    - absl-py >=2.3.1
     - typing-extensions >=4.2.0
-    - jax >=0.4.27
-    - jaxlib >=0.4.27
+    - jax >=0.7.0
+    - jaxlib >=0.7.0
     - numpy >=1.24.1
-    - toolz >=0.9.0
+    - toolz >=1.0.0
 
 test:
   imports:
